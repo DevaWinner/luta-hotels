@@ -13,7 +13,7 @@ body{
 
 .header{
     width: 100%;
-    height: 70em;
+    height: 75em;
     background-image: url("../assets/hotel1.jpg");
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@ body{
     top: 0;
     left: 2;
     width: 100%;
-    height: 70em;
+    height: 75em;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -103,7 +103,7 @@ header ul li a {
 .cta-bnw{
     position: relative;
     margin: 0 auto;
-    top: -7em;
+    top: -9em;
     display: block;
     width: 9em;
     padding: 1.2em;
@@ -119,4 +119,96 @@ header ul li a {
     text-decoration: none;
     text-align: center;
     margin-left: 1em;
+}
+
+.scroll {
+    position: relative;
+    text-align: center;
+    top: -2em;
+}
+
+.scroll i {
+    color: #fff;
+}
+
+.main {
+    margin: 6em;
+}
+
+.main p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section-container {
+    display: flex;
+    margin: 9em;
+}
+
+.section-container-item-1 {
+    margin: 5em;
+    
+}
+
+.section-container-item-1 h1 {
+    font-family: 'Libre Baskerville';
+    font-size: 3rem;
+    font-weight: 800;
+    color: #14274A;
+}
+
+.section-container-item-1 p {
+    max-width: 20em;
+    margin-right: 5em;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.explore {
+    position: absolute;
+    background-color: #E0B973;
+    padding: 0.6em;
+    margin-top: 1.2em;
+    border-radius: 0.5em;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.section-container-item-2 img {
+    max-width: 60em;
+    border-radius: 5em;
+}
+
+.section-2 {
+    display: flex;
+    margin: 9em;
+}
+
+.section-2 img {
+    max-width: 60em;
+    border-radius: 5em;
+}
+
+.section-2-item-2 {
+    margin-left: 20em;
+    justify-content: right;
+
+}
+
+.section-2-item-2 h1 {
+    font-family: 'Libre Baskerville';
+    font-size: 3rem;
+    font-weight: 800;
+    color: #14274A;
+}
+
+.section-2-item-2 p {
+    max-width: 25em;
+    text-align: left;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+.testimonial {
+
 }
