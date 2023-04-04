@@ -10,6 +10,7 @@ body{
 .main-container{
     margin: 0 auto;
 }
+
 .header{
     width: 100%;
     height: 70em;
@@ -28,21 +29,22 @@ body{
     left: 2;
     width: 100%;
     height: 70em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
 header{
     display: flex;
     justify-content: space-around;
 }
 
 .logo {
-    height: 3em;
+    height: 3.3em;
     left: 11.09%;
     right: 75.57%;
     top: 0%;
     bottom: 95.41%;
     background: #E0B973;
-    padding: 0 0.8em 0.8em;
+    padding: 0 0.9em 0.9em;
     font-family: 'Libre Baskerville';
     font-size: 2.0rem;
     z-index: 1;
@@ -52,8 +54,7 @@ header{
 
 .logo a {
     text-decoration: none;
-    color: white;
-   
+    color: #000;
 }
 
 header ul {
@@ -72,5 +73,50 @@ header ul li {
 header ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    font-weight: 500;
+    position: relative;
+}
+
+.hero-text {
+    position: relative;
+    margin: 20em;
+    z-index: 2;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    max-width: 25em;
+    color: #fff;
+}
+
+.hero-text-1 {
+    font-size: 1.5rem;
+}
+
+.hero-text h1 {
+    font-family: 'Libre Baskerville';
+    font-size: 5rem;
+    color: #fff;
+    margin: 0.06em 0;
+}
+
+.cta-bnw{
+    position: relative;
+    margin: 0 auto;
+    top: -7em;
+    display: block;
+    width: 9em;
+    padding: 1.2em;
+    background-color: #E0B973;
+    border-radius: 0.5em;
+}
+
+.cta-bnw a {
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1em;
 }
