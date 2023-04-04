@@ -1,0 +1,76 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.main-container{
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 70em;
+    background-image: url("../assets/hotel1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: rgba(20, 39, 74, 0.);
+}
+
+.header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 2;
+    width: 100%;
+    height: 70em;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 3em;
+    left: 11.09%;
+    right: 75.57%;
+    top: 0%;
+    bottom: 95.41%;
+    background: #E0B973;
+    padding: 0 0.8em 0.8em;
+    font-family: 'Libre Baskerville';
+    font-size: 2.0rem;
+    z-index: 1;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+header ul {
+    display: flex;
+    gap: 4em;
+    margin-top: 3em;
+   
+}
+
+header ul li {
+    list-style: none;
+    font-size: 2.0rem;
+    z-index: 1;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
