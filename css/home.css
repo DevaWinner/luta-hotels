@@ -147,7 +147,6 @@ header ul li a {
 
 .section-container-item-1 {
     margin: 5em;
-    
 }
 
 .section-container-item-1 h1 {
@@ -155,6 +154,7 @@ header ul li a {
     font-size: 3rem;
     font-weight: 800;
     color: #14274A;
+    margin-left: 1.5em;
 }
 
 .section-container-item-1 p {
@@ -162,16 +162,8 @@ header ul li a {
     margin-right: 5em;
     text-align: justify;
     line-height: 1.6em;
-}
-
-.explore {
-    position: absolute;
-    background-color: #E0B973;
-    padding: 0.6em;
-    margin-top: 1.2em;
-    border-radius: 0.5em;
-    font-weight: 800;
-    font-family: monospace;
+    border-left: 2px solid black;
+    padding-left: 2em;
 }
 
 .section-container-item-2 img {
@@ -203,12 +195,120 @@ header ul li a {
 }
 
 .section-2-item-2 p {
-    max-width: 25em;
+    max-width: 30em;
     text-align: left;
     text-align: justify;
     line-height: 1.6em;
+    border-right: 2px solid black;
+    padding-right: 3em;
+}
+
+.explore {
+    background-color: #E0B973;
+    padding: 1.1em 2em;
+    margin-top: 1.2em;
+    border-radius: 0.5em;
+    font-weight: 800;
+    font-family: monospace;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#explore {
+    margin-left: 3em;
 }
 
 .testimonial {
+    text-align: center;
+    margin: 10em;
+    margin-left: 30em;
+}
 
+.testimonial h1 {
+    font-family: 'Libre Baskerville';
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.testimonial p {
+    font-size: 1.5rem;
+}
+
+.testimonial i {
+    margin-top: 1em;
+    margin-right: 0.5em;
+}
+
+footer {
+    width: 100%;
+    height: 20em;
+    background-color: #14274A;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+footer>div {
+    margin-top: 2.7em;
+}
+
+.footer-content-1 h2 {
+    font-family: 'Libre Baskerville';
+    font-size: 2.3rem;
+}
+
+.footer-content-1 p {
+    margin-top: -0.5em;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+
+.footer-content-2 ul, .footer-content-3 ul {
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 2.7em;
+}
+
+.footer-content-2 ul li,  .footer-content-3 ul li {
+    font-size: 1.3rem;
+    margin-top: 1.1rem;
+}
+
+.footer-content-4{
+    margin-top: 5em;
+}
+
+.footer-content-4 p {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.email-container {
+    display: flex;
+    background-color: #E0B973;
+    border-radius: 0.8em;
+    padding: 0.2em;
+    width: 25em;
+}
+
+input {
+    position: inherit;
+    background-color: #14274A;
+    border-radius: 0.6em;
+    padding: 0.3em 1em;
+    height: 2.3em;
+    color: #fff;
+    border: none;
+}
+
+.email-container>p {
+    margin: auto;
+    color: #14274A;
+    font-weight: 900;
+}
+
+.email-container>p a{
+    color: #14274A;
+    text-decoration: none;
+    font-size: 1.3rem;
 }
