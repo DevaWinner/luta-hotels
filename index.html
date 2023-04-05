@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
+
+    <script src="home.js"></script>
     
 </head>
 <body>
@@ -22,8 +24,8 @@
                 <ul>
                     <li> <a href="#"> Home </a></li>
                     <li> <a href="#facilities"> Facilities</a></li>
-                    <li> <a href="#"> Rooms</a></li>
-                    <li>  <a href="#">Contact us</a></li>
+                    <li> <a href="#rooms"> Rooms</a></li>
+                    <li>  <a href="#contact-us">Contact us</a></li>
                 </ul>
             </nav>
             </header>
@@ -38,9 +40,10 @@
             <a href=""> Book now</a>
         </div>
         <div class="scroll">
-            <a href="#main"><i class="fa-solid fa-circle-down fa-5x"></i></a>
+            <a href="#main"><i class="fa-sharp fa-solid fa-circle-down fa-beat-fade fa-5x"></i></a>
         </div>
     </div>
+
 
     <main>
         <section class="main" id="main">
@@ -133,52 +136,109 @@
         </div>
         
         <div class="rooms">
-            <div class="rooms-img">
+            <div class="single-room">
 
             </div>
             <h1 class="rooms-h1">SINGLE ROOM</h1>
-            <div>
-                <div>
-                    <i></i>
-                    <p class="rooms-p">VIEW ROOM DETAILS</p>
+            <div class="rooms-cont">
+                <div class="detail">
+                    <i class="fa-sharp fa-solid fa-circle-plus fa-beat-fade fa-3x"></i>
+                    <span>VIEW ROOM DETAILS</span>
                 </div>
                 
-                <div>
-                    <p class="rooms-price">N60,000 Avg/night</p>
+                <div class="pricing">
+                    <span>N70,000 Avg/night</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="rooms">
+            <div class="double-room">
+
+            </div>
+            <h1 class="rooms-h1">DOUBLE ROOM</h1>
+            <div class="rooms-cont">
+                <div class="detail">
+                    <i class="fa-sharp fa-solid fa-circle-plus fa-beat-fade fa-3x"></i>
+                    <span>VIEW ROOM DETAILS</span>
+                </div>
+                
+                <div class="pricing">
+                    <span>N120,000 Avg/night</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="rooms">
+            <div class="twin-room">
+
+            </div>
+            <h1 class="rooms-h1">TWIN ROOM</h1>
+            <div class="rooms-cont">
+                <div class="detail">
+                    <i class="fa-sharp fa-solid fa-circle-plus fa-beat-fade fa-3x"></i>
+                    <span>VIEW ROOM DETAILS</span>
+                </div>
+                
+                <div class="pricing">
+                    <span>N150,000 Avg/night</span>
                 </div>
             </div>
         </div>
         
     </section>
 
+    
+    <section class="contact" id="contact-us">
+        <div class="contact-heading">
+            <h1>WE ARE HERE FOR YOU</h1>
+        <p>
+            At Luxury Hotels, we take our customers seriously. Do you have any enquiries, compaints or requests, please forward it to our support desk and we will get back to you as soon as possible.
+        </p>
+        </div>
 
+        <div class="contact-container">
+            <div class="contact-details">
+                <p>
+                    40, Accra Street, Wuse Zone 5, Abuja
+                </p>
 
+                <div>
+                    <p>
+                        View map
+                    </p>
+                    <i></i>
+                </div>
 
+                <p>
+                    Phone: +2349035251195 <br> <br>
+                    Email: wineranniekan@gmail.com
+                </p>
+            </div>
 
+            <div class="form">
+                <form action="post">
+                    <div>
+                        <label for="name">
+                            Name
+                        </label> <br>
+                        <input type="text">
+                    </div>
+                        
+                    <div>
+                        <label for="email">Email Address</label> <br>
+                    <input type="email">
+                    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div>
+                        <label for="message">Message</label> <br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div> 
+                </form>
+            </div>
+        </div>
+        
+    </section>
 
     <div class="testimonial">
         <h1>testimonial</h1>
@@ -220,6 +280,8 @@
             </div>
         </div> 
     </footer>
+
+    <a href="#" class="scroll-to-top"><i class="fa-sharp fa-solid fa-circle-up fa-beat-fade"></i></a>
 
 
     <script src="https://kit.fontawesome.com/8d20eebc7a.js" crossorigin="anonymous"></script>

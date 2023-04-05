@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;      
 }
 
 body{
@@ -220,7 +221,7 @@ header ul li a {
 
 .other {
     text-align: center;
-    margin-top: 20em;
+    margin-top: 13em;
 }
 
 .other h1{
@@ -288,40 +289,130 @@ header ul li a {
 
 .rooms {
     margin: 5em 35em;
+    border: 2px solid black;
+    border-radius: 1em;
+    color: #14274A;
 }
-.rooms-img {
+
+.rooms>.rooms-h1{
+    background-color: #14274A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5em 0;
+    margin-top: 0;
+    color: #fff;
+}
+
+.rooms-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail {
+    display: flex;
+    margin: 5em 0;
+    justify-content: space-between;
+    border-right: 2px solid #14274A;
+    padding-right:10em;
+}
+
+.detail>span{
+    display:inline-block;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    font-size: 1.3rem;
+    font-weight: 1000;
+}
+
+.pricing {
+    background-color: #E0B973;
+    max-height: fit-content;
+    padding: 1.5em;
+    margin:4em 0;
+    border-radius: 1em;
+}
+
+.pricing>span {
+    color: #fff;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.single-room {
     background: url(../assets/single-room.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45em;
 }
 
-.rooms-h1{
-    background-color: #14274A;
+.double-room {
+    background: url(../assets/double-room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
 }
 
+.twin-room {
+    background: url(../assets/double\ room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+}
 
+.contact {
+    align-items: center;
+    margin:13em 10%;
+}
 
+.contact-heading>h1 {
+    font-family: 'Libre Baskerville';
+    font-size: 3.0rem;
+    font-weight: 1000;
+}
 
+.contact-heading>p {
+    font-size: 1.5rem;
+    max-width: 80%;
+}
 
+.contact-container {
+    margin: 3em;
+    display: flex;
+}
 
+.contact-container p {
+    font-size: 1.5rem;
+}
 
+.contact-details {
+    margin-right: 30em;
+}
 
+.form label {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
+.form>form>div {
+    margin-top: 2em;
+}
 
+.form>form input{
+    width: 35em;
+    margin: 0.8em 0;
+    background: white;
+    border: 2px solid black;
+}
 
-
-
-
-
-
-
-
-
+textarea {
+    width: 37em;
+    margin: 0.8em 0;
+    background: white;
+    border: 2px solid black;
+}
 
 .testimonial {
     text-align: center;
-    margin: 10em;
+    margin: -4em 0 10em;
 }
 
 .testimonial h1 {
@@ -412,3 +503,46 @@ input {
     text-decoration: none;
     font-size: 1.3rem;
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 9999;
+  }
+  
+  .scroll-to-top i {
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-to-top i:hover {
+    background-color: #555;
+  }
+  
+  /* Show the scroll-to-top button when the user scrolls down */
+  @media (min-width: 768px) {
+    .scroll-to-top {
+      display: block;
+    }
+  }
+  
+  /* Animate the appearance of the scroll-to-top button */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .scroll-to-top {
+    animation: fadeIn 0.3s ease;
+  }
+  
