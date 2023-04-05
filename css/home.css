@@ -3,6 +3,32 @@ html{
     scroll-behavior: smooth;      
 }
 
+/* Import the animate.css library */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Add the animation class to your page element */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* Define the animation using the fadeIn animation from animate.css */
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+/* Define the keyframes for the fadeIn animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+
 body{
     margin: 0;
     font-family: Montserrat;
