@@ -218,10 +218,110 @@ header ul li a {
     margin-left: 3em;
 }
 
+.other {
+    text-align: center;
+    margin-top: 20em;
+}
+
+.other h1{
+    font-family: 'Libre Baskerville';
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+
+.other p{
+    font-size: 1.6rem;
+    margin: 0 15%;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+.fac-container {
+    display: flex;
+    margin: 7em 10em;
+    justify-content: space-around;
+}
+
+.fac-container>div:first-child {
+    background-image: url(../assets/gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    border-radius: 2em;
+    margin: 0 5em;
+}
+
+.fac-container>div:last-child {
+    background-image: url(../assets/Pool-side-bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    border-radius: 2em;
+}
+
+#fac-desc{
+    background-color: #fff;
+    position: relative;
+    margin: 22.5em 13em;
+    padding: 1.2%;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+#fac-2-1 {
+    background-image: url(../assets/spa.jpg);
+}
+
+#fac-2-2 {
+    background-image: url(../assets/Pool.png);
+}
+
+#fac-3-1 {
+    background-image: url(../assets/restaurant.png);
+}
+
+#fac-3-2 {
+    background-image: url(../assets/laundry.png);
+}
+
+.rooms {
+    margin: 5em 35em;
+}
+.rooms-img {
+    background: url(../assets/single-room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45em;
+}
+
+.rooms-h1{
+    background-color: #14274A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .testimonial {
     text-align: center;
     margin: 10em;
-    margin-left: 30em;
 }
 
 .testimonial h1 {
