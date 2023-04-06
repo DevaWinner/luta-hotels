@@ -386,7 +386,7 @@ header ul li a {
 
 .contact {
     align-items: center;
-    margin:13em 10%;
+    margin:13em 0 10% 10%;
 }
 
 .contact-heading>h1 {
@@ -438,7 +438,7 @@ textarea {
 
 .testimonial {
     text-align: center;
-    margin: -4em 0 10em;
+    margin: 0 0 10em;
 }
 
 .testimonial h1 {
@@ -572,3 +572,8 @@ input {
     animation: fadeIn 0.3s ease;
   }
   
+
+  hr {
+    max-width: 85%;
+    border: 0.1em solid rgba(0, 0, 0, 0.2);
+  }
